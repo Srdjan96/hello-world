@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="sr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>IV termin</title>
+
+
+        <link rel="shortcut icon" href="https://www.ict.edu.rs/sites/default/files/public/favicon.ico" type="image/vnd.microsoft.icon" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <a href="index.html"><img src="assets/images/logo.png" alt="Logo" class="img-fluid"/></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <ul id="navigacija">
+                            <li class="aktivan"><a href="index.html">Opis zadatka</a></li>
+                            <li><a href="zadatak.html">Zadatak</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container-fluid cover">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-6 ml-auto transparent d-flex flex-column align-items-center">
+                        <h1 class="font-weight-bold text-uppercase rounded mt-5 h2 mb-5">web programiranje II</h1>
+                        <span>Predispitne obaveze - 50 bodova</span>
+                        <span>Lab. kolokvijum - 10 bodova</span>
+                        <span>Izrada sajta - 15 bodova</span>
+                        <span>Kolokvijumi u toku trimestra - 25 bodova</span>
+                        <span>Ispit - 50 bodova</span>
+                        <span class="st text-center text-uppercase">document.write("Srećno!!!");</span>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="text-center mt-3 mb-3">Dinamički sadržaj && Filtriranje && Sortiranje</h2>
+                        <div class="col-12 col-sm-12 col-md-8 col-lg-8 mx-auto">
+                            <ol>
+                                <li>Kreirati json fajl koji predstavlja stavke u meniju. Proveriti ispravnost strukture JSON fajla - https://jsonformatter.curiousconcept.com/</li>
+				                <li>Ajax pozivom dinamički prikazati stavke u glavnom <b><i>meniju</i></b>. Koje informacije su nam potrebne za svaki link? <br/><b>Obratiti pažnju na aktivan link.</b></li>
+				                <li>Ajax pozivom dohvatiti sve proizvođače mobilnih telefona iz fajla <b><i>data/brands.json</i></b> u formi <i>dropdown liste</i> (div id="divRobneMarke").
+				                <li>Pri učitavanju strane, treba prikazati sve proizvode koji se nalaze u fajlu <b><i>data/products.json</i></b>, u skladu sa priloženim template-om. (div id="proizvodi") </li>
+				                <li><b>SORTIRANJE</b> - Klikom na dugme id="sortiraj", sortirati proizvode po ceni u <b>opadajucem</b> redosledu.</li>
+				                <li><b>FILTRIRANJE</b> - Izborom robne marke, u bloku id="proizvodi", treba prikazati samo proizvode koji pripadaju izabranoj robnoj marci. (<i>Primenom funkcije <b>filter()</b> - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter">DOKUMENTACIJA</a></i>)</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="container-fluid dark-bg">
+                <div class="row">
+                    <div class="col-6 mx-auto pt-4 pb-4 text-center font-weight-bold">
+                        <p>&copy; 2019/20 Visoka ICT škola</p>
+			            <img src="http://www.ict.edu.rs/sites/default/files/public/logo_visoka_ict_skola_0.png" alt="Visoka ICT skola"/>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
